@@ -9,11 +9,12 @@
 <body>
     <div class="form-container">
         <h2> Resistration Form</h2>
-        <form>
+        <form >
+            <div class="inner">
             <lable form="name">name</lable>
             <!--name-->
             <input type="text" id="name" placeholder="enter your name" required><br><br>
-            <!--male-->
+            <!--mail-->
             <lable for="email">Email </lable>
         <input type="email" id="email" placeholder="enter your email" required><br><br>
         <!--password-->
@@ -21,8 +22,10 @@
         <input type="password" id="password" name="password" placeholder="enter your password" required><br><br>
         <lable>gender</lable>
  <div class="radio-group">
- <lable><input type="radio" name="gender" value="female">female</lable>
+   <div class="gen">
+ <lable><input type="radio" name="gender" value="female" >female</lable>
  <lable><input type="radio" name="gender" value="male">male</lable></div><br><br>
+ </div>
  <!--country-->    
     <lable for="country">country</lable>
     <select id="country" name="country" required>
@@ -35,7 +38,8 @@
         <lable for="message">message</lable>
         <textarea id="message" name="message" placeholder="enter your message" required></textarea><br><br>
         <button type="submit">submit</button>
+        <button type="login">log in</button></div>
 </form>
-    </div>
+</div>
 </body>
 </html>
